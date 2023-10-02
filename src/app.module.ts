@@ -13,6 +13,7 @@ import { ConfigModule } from '@nestjs/config';
       useClass: DatabaseConfigService,
       inject: [DatabaseConfigService],
     }),
+    UserModule,
   ],
   controllers: [],
   providers: [],
